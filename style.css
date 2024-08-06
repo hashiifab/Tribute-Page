@@ -1,0 +1,90 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+.body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(81, 77, 71);
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0 15px 0;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+#img-caption {
+  padding: 2px;
+  margin: 10px;
+  text-align: justify;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  margin-bottom: 60px;
+}
+
+ul li {
+  padding: 10px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.q-bj {
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  font-size: larger;
+  background-color: aliceblue;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  left: -3%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  color: rgb(233, 183, 183);
+}
